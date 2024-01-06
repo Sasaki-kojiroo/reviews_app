@@ -4,8 +4,8 @@ import pandas as pd
 from datetime import time, datetime, timedelta
 
 
-df = pd.read_csv("sentiment.csv")
 
+df = pd.read_csv("sentiment.csv")
 df.FECHA = pd.to_datetime(df.FECHA)
 
 Fecha_minima = df.FECHA.min()
@@ -25,18 +25,8 @@ d_max = Fecha_maxima.day
 
 #_________________________________________________
 # Sidebar
-st.sidebar.title("Filtros")
+st.sidebar.title("Filtros 	:female-doctor:")
 
-
-
-# FILTERS
-# FECHA
-#start_time = st.sidebar.slider(
-#     "When do you start?",
- #    min_value=FECHAtime(a_min, m_min, d_min),
-     #max_value=FECHAtime(a_max, m_max, d_max),
-    # value=(FECHAtime(a_min, m_min, d_min), FECHAtime(a_max, m_max, d_max)),
-   #  format="DD/MM/YY")
 
 #YEAR
 anno = 0
@@ -100,24 +90,15 @@ genre = st.sidebar.radio(
 
 #_________________________________________________
 # TITLE
-st.title('Hospital Los Ángeles')
+st.title('Hospital Ángeles 	:hospital:')
 st.header("Ciudad Juárez")
 
 #______________________________________________________________________________________________
-# FILTROS
-st.subheader('Filtros')
+### FILTROS
 
-# Mostrar el rango de meses seleccionado
+bar = st.progress(50)
+bar.progress(100)
 
-if anno ==1:
-    st.write(f"Año: {a_min}")
-else:
-    st.write(f"Años selecionados: {selected_year[0]}-{selected_year[1]}")
-
-st.write(f"Días seleccionados: {selected_day[0]}-{selected_day[1]}")
-st.write(f'Meses seleccionados: {selected_months[0]} - {selected_months[1]}')
-
-st.write(f'Horas seleccionadas: {selected_time[0]} - {selected_time[1]}')
 
 #_________________________________________________
 # DATAFRAME with filters
@@ -162,7 +143,7 @@ def highlight_sentiment(val):
     else:
         return ''
 
-st.header("Últimas reseñas")
+st.header("Últimas reseñas 	:pencil:")
 df_latest = df_filtered[["REVIEW", "SENTIMENT", "GRUPO", "FECHA"]]
 df_latest = df_latest.sort_values("FECHA", ascending=False)
 df_latest = df_latest.head(5)
@@ -172,7 +153,7 @@ df_latest_styled = df_latest.head(1).style.applymap(highlight_sentiment, subset=
 df_latest_styledd = df_latest.style.applymap(highlight_sentiment, subset=["SENTIMENT"])
 
 # Mostrar DataFrame con formato condicional
-st.subheader("Última reseña")
+st.subheader("Última reseña :mailbox_with_mail:")
 st.dataframe(
     df_latest_styled,
     column_config={
@@ -184,7 +165,7 @@ st.dataframe(
     hide_index=True,
 )
 
-st.subheader("Últimas 5 reseñas")
+st.subheader("Últimas 5 reseñas :rotating_light:")
 
 
 with st.expander('Da un "Click" para ver'):
@@ -202,7 +183,7 @@ with st.expander('Da un "Click" para ver'):
 
 
 ###########################################################################
-st.header("Gráficos")
+st.header("Gráficos :chart_with_upwards_trend:")
 ###########################################################################
 # POR HORA
 ###############
@@ -283,7 +264,7 @@ df_sentiment_counts.columns = ['SENTIMENT', 'counts']
 
 
 # Gráfico de barras para positivas, neutrales y negativas
-st.subheader('Positivas, Neutras y Negativas')
+st.subheader('Positivas, Neutras y Negativas :bar_chart:')
 sentiment_chart = alt.Chart(df_sentiment_counts).mark_bar().encode(
     x='SENTIMENT:N',
     y='counts:Q',
@@ -297,12 +278,12 @@ st.altair_chart(sentiment_chart, use_container_width=True)
 
 #_________________________________________________
 # VISUALIZACIÓN DE RESEÑAS
-st.header("TOP 10 reseñas")
+st.header("TOP 10 reseñas :sparkles:")
 df_Positivas = df_filtered[["REVIEW","FECHA","GRUPO","SCORE"]]
 df_Positivas = df_Positivas.sort_values("SCORE", ascending=False)
 df_Positivas =df_Positivas.head(5)
 
-with st.expander("Reseñas más positivas"):
+with st.expander("Reseñas más positivas :large_blue_circle:"):
 
     st.dataframe(
         df_Positivas,
@@ -318,7 +299,7 @@ df_Negatiavas = df_filtered[["REVIEW","FECHA","GRUPO","SCORE"]]
 df_Negatiavas = df_Negatiavas.sort_values("SCORE", ascending=True)
 df_Negatiavas =df_Negatiavas.head(5)
 
-with st.expander("Reseñas más negativas"):
+with st.expander("Reseñas más negativas :red_circle:"):
 
     st.dataframe(
         df_Negatiavas,
@@ -402,7 +383,7 @@ dif_semana_neg = f"{int(((r_semanaA_neg - r_semana_neg) / (r_semana_neg + 1)) * 
 dif_mes_neg = f"{int(((r_mesA_neg - r_mes_neg) / (r_mes_neg + 1)) * 100)}%"
 
 # Llenar los espacios "VACIO" en la interfaz
-st.header('Comparativa')
+st.header('Comparativa :mag_right:')
 tab1, tab2, tab3 = st.tabs(["Mes Pasado", "Semana Pasada", "Ayer"])
 with tab1:
     with st.container():
