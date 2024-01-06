@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import time, datetime, timedelta
 
 
-df = pd.read_csv("C:\\Users\\bryan\\OneDrive\\Desktop\\Curso\\Practice\\sentiment.csv")
+df = pd.read_csv("sentiment.csv")
 
 df.FECHA = pd.to_datetime(df.FECHA)
 
