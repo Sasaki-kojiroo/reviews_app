@@ -2,8 +2,6 @@ import streamlit as st
 import altair as alt
 import pandas as pd
 from datetime import time, datetime, timedelta
-from streamlit_folium import st_folium
-import folium
 
 
 df = pd.read_csv("C:\\Users\\bryan\\OneDrive\\Desktop\\Curso\\Practice\\sentiment.csv")
@@ -105,17 +103,7 @@ genre = st.sidebar.radio(
 st.title('Hospital Los Ángeles')
 st.header("Ciudad Juárez")
 
-#_________________________________________________
-# MAPSS
-m = folium.Map(location=[31.713989, -106.392335], zoom_start=16)
-folium.Marker(
-    [31.713989, -106.392335], popup="Liberty Bell", tooltip="Liberty Bell"
-).add_to(m)
-
-# call to render Folium map in Streamlit
-st_data = st_folium(m, height=200, width=725)
-
-#_________________________________________________
+#______________________________________________________________________________________________
 # FILTROS
 st.subheader('Filtros')
 
