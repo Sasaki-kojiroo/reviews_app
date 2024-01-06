@@ -1,0 +1,69 @@
+REVIEW,FECHA,GRUPO,SENTIMENT,SCORE
+"La atención al paciente fue excepcional, el personal se mostró muy amable y comprensivo.",2023-12-05 10:15:00,Atención al Paciente,Positivo,0.92
+"Las instalaciones del hospital están impecables, todo estaba muy limpio y ordenado.",2023-12-10 14:30:00,Instalaciones y Limpieza,Positivo,0.89
+"Esperé un tiempo razonable para ser atendido, la espera fue tolerable.",2023-12-02 09:45:00,Tiempo de Espera,Neutro,0.5
+"La comunicación con el personal médico fue clara y efectiva, me explicaron todo detalladamente.",2023-12-15 16:20:00,Comunicación,Positivo,0.94
+El tratamiento médico que recibí fue eficaz y me ayudó a recuperarme rápidamente.,2023-12-18 11:10:00,Tratamiento Médico,Positivo,0.93
+"La cirugía a la que me sometí fue un éxito, el equipo quirúrgico fue muy profesional.",2023-12-07 08:00:00,Procedimientos y Cirugía,Positivo,0.95
+"Tuve problemas con la facturación y la administración del hospital, fue una experiencia frustrante.",2023-12-20 13:55:00,Administración y Facturación,Negativo,-0.85
+"El servicio de emergencia fue rápido y eficiente, me brindaron la atención necesaria de inmediato.",2023-12-03 17:40:00,Servicio de Emergencia,Positivo,0.9
+"Ofrecen servicios adicionales que hacen que la estadía sea más cómoda, como servicio de comidas a la habitación.",2023-12-08 12:05:00,Servicios Adicionales,Positivo,0.87
+"En general, mi experiencia en el hospital fue satisfactoria, no tengo quejas.",2023-12-28 19:25:00,Comentarios Generales,Positivo,0.88
+"La atención al paciente fue aceptable, pero podría haber sido mejor.",2023-12-06 15:30:00,Atención al Paciente,Neutro,0.35
+"Las instalaciones están limpias, pero podrían mejorar en términos de comodidad.",2023-12-11 10:50:00,Instalaciones y Limpieza,Neutro,0.4
+"Esperé menos de lo que pensaba para ser atendido, eso fue positivo.",2023-12-04 13:20:00,Tiempo de Espera,Positivo,0.78
+"Hubo algunas confusiones en la comunicación con el personal médico, pero se resolvieron.",2023-12-16 11:55:00,Comunicación,Neutro,0.45
+"El tratamiento médico fue estándar, no hubo nada excepcional al respecto.",2023-12-19 09:30:00,Tratamiento Médico,Neutro,0.5
+"La cirugía fue necesaria pero estresante, tuve algunas complicaciones durante el proceso.",2023-12-09 08:15:00,Procedimientos y Cirugía,Negativo,-0.75
+La facturación y la administración del hospital fueron confusas y desorganizadas.,2023-12-21 14:45:00,Administración y Facturación,Negativo,-0.88
+"El servicio de emergencia fue lento en atenderme, eso me preocupó.",2023-12-01 17:10:00,Servicio de Emergencia,Negativo,-0.7
+"Los servicios adicionales no estaban disponibles durante mi estadía, fue una decepción.",2023-12-22 12:40:00,Servicios Adicionales,Negativo,-0.78
+"Mi experiencia en el hospital fue neutral, ni positiva ni negativa.",2023-12-29 20:05:00,Comentarios Generales,Neutro,0.1
+"El personal del hospital fue amable, pero la espera fue larga.",2023-12-12 15:15:00,Atención al Paciente,Neutro,0.2
+"Las instalaciones están limpias, pero necesitan más mantenimiento.",2023-12-05 10:55:00,Instalaciones y Limpieza,Neutro,0.3
+"La espera fue inaceptablemente larga, me sentí frustrado.",2023-12-03 14:30:00,Tiempo de Espera,Negativo,-0.8
+La comunicación con el personal médico fue eficiente y efectiva.,2023-12-18 16:20:00,Comunicación,Positivo,0.9
+"El tratamiento médico me ayudó a mejorar rápidamente, estoy satisfecho.",2023-12-14 11:10:00,Tratamiento Médico,Positivo,0.92
+La cirugía a la que fui sometido fue necesaria y exitosa.,2023-12-07 08:30:00,Procedimientos y Cirugía,Positivo,0.94
+"La administración del hospital fue confusa y lenta, tuve problemas con la factura.",2023-12-24 13:55:00,Administración y Facturación,Negativo,-0.85
+"El servicio de emergencia fue rápido y profesional, me sentí seguro.",2023-12-02 17:40:00,Servicio de Emergencia,Positivo,0.92
+Los servicios adicionales hicieron que mi estadía fuera más cómoda y placentera.,2023-12-08 12:45:00,Servicios Adicionales,Positivo,0.88
+"En general, mi experiencia en el hospital fue satisfactoria, no tengo quejas.",2023-12-28 19:50:00,Comentarios Generales,Positivo,0.89
+"La atención al paciente fue aceptable, pero podría haber sido mejor.",2023-12-06 16:30:00,Atención al Paciente,Neutro,0.4
+"Las instalaciones están limpias, pero necesitan más mantenimiento.",2023-12-11 10:50:00,Instalaciones y Limpieza,Neutro,0.38
+"Esperé menos de lo que pensaba para ser atendido, eso fue positivo.",2023-12-04 13:20:00,Tiempo de Espera,Positivo,0.76
+"Hubo algunas confusiones en la comunicación con el personal médico, pero se resolvieron.",2023-12-16 11:55:00,Comunicación,Neutro,0.45
+"El tratamiento médico fue estándar, no hubo nada excepcional al respecto.",2023-12-19 09:30:00,Tratamiento Médico,Neutro,0.48
+"La cirugía fue necesaria pero estresante, tuve algunas complicaciones durante el proceso.",2023-12-09 08:15:00,Procedimientos y Cirugía,Negativo,-0.72
+La facturación y la administración del hospital fueron confusas y desorganizadas.,2023-12-21 14:45:00,Administración y Facturación,Negativo,-0.87
+"El servicio de emergencia fue lento en atenderme, eso me preocupó.",2023-12-01 17:10:00,Servicio de Emergencia,Negativo,-0.68
+"Los servicios adicionales no estaban disponibles durante mi estadía, fue una decepción.",2023-12-22 12:40:00,Servicios Adicionales,Negativo,-0.78
+"Mi experiencia en el hospital fue neutral, ni positiva ni negativa.",2023-12-29 20:05:00,Comentarios Generales,Neutro,0.1
+"El personal del hospital fue amable, pero la espera fue larga.",2023-12-12 15:15:00,Atención al Paciente,Neutro,0.2
+"Las instalaciones están limpias, pero necesitan más mantenimiento.",2023-12-05 10:55:00,Instalaciones y Limpieza,Neutro,0.3
+"La espera fue inaceptablemente larga, me sentí frustrado.",2023-12-03 14:30:00,Tiempo de Espera,Negativo,-0.8
+La comunicación con el personal médico fue eficiente y efectiva.,2023-12-18 16:20:00,Comunicación,Positivo,0.9
+"El tratamiento médico me ayudó a mejorar rápidamente, estoy satisfecho.",2023-12-14 11:10:00,Tratamiento Médico,Positivo,0.92
+La cirugía a la que fui sometido fue necesaria y exitosa.,2023-12-07 08:30:00,Procedimientos y Cirugía,Positivo,0.94
+"La administración del hospital fue confusa y lenta, tuve problemas con la factura.",2023-12-24 13:55:00,Administración y Facturación,Negativo,-0.85
+"El servicio de emergencia fue rápido y profesional, me sentí seguro.",2023-12-02 17:40:00,Servicio de Emergencia,Positivo,0.92
+Los servicios adicionales hicieron que mi estadía fuera más cómoda y placentera.,2023-12-08 12:45:00,Servicios Adicionales,Positivo,0.88
+"En general, mi experiencia en el hospital fue satisfactoria, no tengo quejas.",2023-12-28 19:50:00,Comentarios Generales,Positivo,0.89
+"La atención al paciente fue aceptable, pero podría haber sido mejor.",2023-12-06 16:30:00,Atención al Paciente,Neutro,0.4
+"Las instalaciones están limpias, pero necesitan más mantenimiento.",2023-12-11 10:50:00,Instalaciones y Limpieza,Neutro,0.38
+"Esperé menos de lo que pensaba para ser atendido, eso fue positivo.",2023-12-04 13:20:00,Tiempo de Espera,Positivo,0.76
+"Hubo algunas confusiones en la comunicación con el personal médico, pero se resolvieron.",2023-12-16 11:55:00,Comunicación,Neutro,0.45
+"El tratamiento médico fue estándar, no hubo nada excepcional al respecto.",2023-12-19 09:30:00,Tratamiento Médico,Neutro,0.48
+"La cirugía fue necesaria pero estresante, tuve algunas complicaciones durante el proceso.",2023-12-09 08:15:00,Procedimientos y Cirugía,Negativo,-0.72
+La facturación y la administración del hospital fueron confusas y desorganizadas.,2023-12-21 14:45:00,Administración y Facturación,Negativo,-0.87
+"El servicio de emergencia fue lento en atenderme, eso me preocupó.",2023-12-01 17:10:00,Servicio de Emergencia,Negativo,-0.68
+"Los servicios adicionales no estaban disponibles durante mi estadía, fue una decepción.",2023-12-22 12:40:00,Servicios Adicionales,Negativo,-0.78
+"Mi experiencia en el hospital fue neutral, ni positiva ni negativa.",2023-12-29 20:05:00,Comentarios Generales,Neutro,0.1
+"El personal del hospital fue amable, pero la espera fue larga.",2023-12-12 15:15:00,Atención al Paciente,Neutro,0.2
+"El personal del hospital fue amable, pero la espera fue larga.",2024-01-4 15:15:00,Atención al Paciente,Neutro,0.2
+"El personal del hospital fue amable, pero la espera fue larga.",2024-01-4 15:15:00,Atención al Paciente,Neutro,0.2
+"El personal del hospital fue amable, pero la espera fue larga.",2024-01-5 15:15:00,Atención al Paciente,Neutro,0.2
+Los servicios adicionales hicieron que mi estadía fuera más cómoda y placentera.,2024-01-4 12:45:00,Servicios Adicionales,Positivo,0.88
+Los servicios adicionales hicieron que mi estadía fuera más cómoda y placentera.,2024-01-4 12:45:00,Servicios Adicionales,Positivo,0.88
+Los servicios adicionales hicieron que mi estadía fuera más cómoda y placentera.,2024-01-5 12:45:00,Servicios Adicionales,Positivo,0.88
+Los servicios adicionales hicieron que mi estadía fuera más cómoda y placentera.,2024-01-5 12:45:00,Servicios Adicionales,Positivo,0.88
